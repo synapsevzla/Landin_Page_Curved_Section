@@ -9,7 +9,7 @@
 
 La siguiente landing pague o pagina de aterrizaje, esta diseñada para los retos creados en el sitio web:
 
-[$FRONTENDMENTOR.IO$](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2)
+ ### [FRONTENDMENTOR.IO](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2) 
 
 La intención de este reto, es replicar la solicitud realizada en el sitio web usando, practicas correctas de html y css, subiendo la complejidad con un poco de Java Script como complemento o librería para poder enviar la suscripción del newsletter a una dirección de correo electrónico.
 
@@ -25,4 +25,4 @@ Quis duis enim veniam aute ad minim eiusmod. Consequat do enim tempor consectetu
 
 ## 3. - Vista en vivo del sitio web:
 
-## [$Landing Page and Curve Using HTML, CSS & Js$](https://legendary-florentine-8dc274.netlify.app/)
+### [$ Landing Page and Curve Using HTML, CSS & Js $](https://legendary-florentine-8dc274.netlify.app/)
