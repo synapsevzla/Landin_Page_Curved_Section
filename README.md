@@ -1,11 +1,10 @@
-# DISEÑO DE LANDING PAGE CON HTML Y TAILWIND CSS CON FORMULARIO DE CONTACTO INCLUIDO USO ADICIONAL DE LIBRERÍA JS PARA ENVIÓ DE CORREOS ELECTRÓNICOS
+# DISEÑO DE LANDING PAGE CON HTML Y BOOTSTRAP 5 CSS CON FORMULARIO DE CONTACTO INCLUIDO USO ADICIONAL DE LIBRERÍA JS PARA ENVIÓ DE CORREOS ELECTRÓNICOS
 
 ## Vista previa del sitio web 📷
 
 
 
 ## Introducción al Repositorio ✏️
-
 
 La siguiente landing pague o pagina de aterrizaje, esta diseñada para los retos creados en el sitio web:
 
