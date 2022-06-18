@@ -1,0 +1,9 @@
+#ignora todos los archivos sass
+.sass
+.sass-cache
+
+#ignora todos los archivos de reto
+/reto
+
+#ignora todos los archivos de node_modules
+/node_modules
