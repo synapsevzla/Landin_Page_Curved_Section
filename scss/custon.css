@@ -82,6 +82,14 @@
   background-size: cover;
 }
 
+.bg-img-t-f-1 {
+  height: 250px;
+  width: 100%;
+  background-image: url("../images/bg-footer-top-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-img-b-1 {
   height: 250px;
   width: 100%;
