@@ -1,6 +1,7 @@
 #ignora todos los archivos sass
 .sass
 .sass-cache
+.scss
 
 #ignora todos los archivos de reto
 /reto

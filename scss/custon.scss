@@ -1,32 +1,62 @@
 /*importamos las fuentes y establecemos las familias como lo solicita el archivo style-guide*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600;1,700&display=swap");
 
 //agregamos las fuentes personalizadas
-.Poppins-700                        {font-family: 'Poppins'; font-weight: 700;};
-.Open-Sans-400                      {font-family: 'Open Sans'; font-weight: 400;};
-.Open-Sans-600                      {font-family: 'Open Sans'; font-weight: 600;};
-.Open-Sans-700                      {font-family: 'Open Sans'; font-weight: 700;};
-.fw-900                             {font-weight: 900;};
-.fs-xx                              {font-size: 2.5em;};
-.fs-xx1                             {font-size: 60px !important;};
+.Poppins-700 {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.Open-Sans-400 {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+.Open-Sans-600 {
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+.Open-Sans-700 {
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.fs-xx {
+  font-size: 2.5em;
+}
+.fs-xx1 {
+  font-size: 60px !important;
+}
 
 //fin de las fuentes personalizadas
 
 //comienza bootstrap5
 
-.p-left-30px{padding-left: 30px !important;};
-.p-right-30px{padding-right: 30px !important;};
+.p-left-30px {
+  padding-left: 30px !important;
+}
+.p-right-30px {
+  padding-right: 30px !important;
+}
 
 //se utiliza para definir un alto en %
-.h-15{height: 15%;};
-.h-20{height: 20%;};
-.h-30{height: 30%;};
-.h-35{height: 35%;};
+.h-15 {
+  height: 15%;
+}
+.h-20 {
+  height: 20%;
+}
+.h-30 {
+  height: 30%;
+}
+.h-35 {
+  height: 35%;
+}
 
 //margen negativo
 
-.mar-neg-5{
+.mar-neg-5 {
   margin-bottom: -0%;
 }
 
@@ -34,78 +64,222 @@
 .logo {
   height: 30px;
 }
-
-
 //background top desktop
-
 .bg-img-t-1 {
-  height: 250px;
-  width: 100%;
-  background-image: url('../images/bg-section-top-desktop-1.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .bg-img-t-2 {
-  height: 250px;
-  width: 100%;
-  background-image: url('../images/bg-section-top-desktop-2.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg-img-t-f-1 {
-  height: 250px;
-  width: 100%;
-  background-image: url('../images/bg-footer-top-desktop.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 //background bottom desktop
-
 .bg-img-b-1 {
-  height: 250px;
-  width: 100%;
-  background-image: url('../images/bg-section-bottom-desktop-1.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .bg-img-b-2 {
-  height: 250px;
-  width: 100%;
-  background-image: url('../images/bg-section-bottom-desktop-2.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.container-widths{
+.container-widths {
   min-width: 375px;
   max-width: 1440px;
   flex: auto;
   padding-left: 20px;
   padding-right: 20px;
-};
-
-@media (max-width: 768px) {
-
-  button.btn.rounded-5.text-Color-Light-Pink.border-1.border-Color-Light-Pink.float-end.ps-4.pe-4 {
-    font-size: smaller;
 }
-  
+//enlaces
+#footer a, a:hover, a:active, a:visited{
+  color: white;
+  text-decoration: none;
+}
+//media querys
+@media (max-width: 520px) {
+  //background top desktop
+
+  .bg-img-t-1 {
+    height: 180px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-mobile-1.svg");
+  }
+
+  .bg-img-t-2 {
+    height: 180px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-mobile-2.svg");
+  }
+  .bg-img-t-f-1 {
+    height: 100px;
+    width: 100%;
+    background-image: url("../images/bg-footer-top-mobile.svg");
+  }
+
+  //background bottom desktop
+
+  .bg-img-b-1 {
+    height: 180px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-mobile-1.svg");
+  }
+
+  .bg-img-b-2 {
+    height: 180px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-mobile-2.svg");
+  }
+  .col-md-6.align-self-center.align-items-center.align-content-center{text-align: center;}
+}
+@media (min-width: 521px) {
+  //background top desktop
+
+  .bg-img-t-1 {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-mobile-1.svg");
+  }
+
+  .bg-img-t-2 {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-mobile-2.svg");
+  }
+  .bg-img-t-f-1 {
+    height: 100px;
+    width: 100%;
+    background-image: url("../images/bg-footer-top-mobile.svg");
+  }
+
+  //background bottom desktop
+
+  .bg-img-b-1 {
+    height: 100px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-mobile-1.svg");
+  }
+
+  .bg-img-b-2 {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-mobile-2.svg");
+  }
+}
+@media (min-width: 740px) {
+  //background top desktop
+  .bg-img-t-1 {
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+  }
+  .bg-img-t-2 {
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+  }
+  .bg-img-t-f-1 {
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/bg-footer-top-desktop.svg");
+  }
+  //background bottom desktop
+  .bg-img-b-1 {
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+  }
+  .bg-img-b-2 {
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 2000px) {
+  //background top desktop
+
+  .bg-img-t-1 {
+    height: 450px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+  }
+
+  .bg-img-t-2 {
+    height: 450px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+  }
+  .bg-img-t-f-1 {
+    height: 450px;
+    width: 100%;
+    background-image: url("../images/bg-footer-top-desktop.svg");
+  }
+
+  //background bottom desktop
+
+  .bg-img-b-1 {
+    height: 450px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+  }
+
+  .bg-img-b-2 {
+    height: 450px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 5000px) {
+  //background top desktop
+  .bg-img-t-1 {
+    height: 900px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+  }
+  .bg-img-t-2 {
+    height: 900px;
+    width: 100%;
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+  }
+  .bg-img-t-f-1 {
+    height: 900px;
+    width: 100%;
+    background-image: url("../images/bg-footer-top-desktop.svg");
+  }
+  //background bottom desktop
+  .bg-img-b-1 {
+    height: 900px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+  }
+  .bg-img-b-2 {
+    height: 900px;
+    width: 100%;
+    background-image: url("../images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width:7000px) {
+  body {
+    max-width: 7000px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  }
 }
 
-$theme-colors:(
-
-    Color-Pink : hsl(322, 100%, 66%),
-    Color-Light-Pink: hsl(321, 100%, 78%),
-    Color-Light-Red: hsl(0, 100%, 63%),
-    Color-Very-Dark:  hsl(192, 100%, 9%),
-    Color-Very-Pale:  hsl(207, 100%, 98%),
-    Color-White:  hsl(100, 100%, 100%),
-
+$theme-colors: (
+  Color-Pink: hsl(322, 100%, 66%),
+  Color-Light-Pink: hsl(321, 100%, 78%),
+  Color-Light-Red: hsl(0, 100%, 63%),
+  Color-Very-Dark: hsl(192, 100%, 9%),
+  Color-Very-Pale: hsl(207, 100%, 98%),
+  Color-White: hsl(100, 100%, 100%),
 );
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
-

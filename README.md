@@ -2,7 +2,7 @@
 
 ## Vista previa del sitio web 📷
 
-
+![Conoce la vista previa de mi sitio web y de este reto](./images/PreviewByJHRuiz.jpg)
 
 ## Introducción al Repositorio ✏️
 
@@ -10,17 +10,29 @@ La siguiente landing pague o pagina de aterrizaje, esta diseñada para los retos
 
  ### [FRONTENDMENTOR.IO](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2) 
 
-La intención de este reto, es replicar la solicitud realizada en el sitio web usando, practicas correctas de html y css, subiendo la complejidad con un poco de Java Script como complemento o librería para poder enviar la suscripción del newsletter a una dirección de correo electrónico.
+La intención de este reto, es replicar la solicitud realizada en el sitio web usando, practicas correctas de html y css
 
-Aunque dicha función no es solicitada en el reto, para que sitio web completa completamente con su funcionalidad y uso correcto se agregará JS de modo que el usuario pueda obtener la interacción plena con el sitio web.
+## 1. - Librerías o framework usados: 📋
 
-## 1. - Librerías usadas: 📋
-
-Consequat eiusmod do laborum ad quis incididunt culpa magna nisi occaecat reprehenderit.
+- Bootstrap 5
+- Sass
+- [Font Awesome](https://fontawesome.com/)
 
 ## 2. - Códigos de Colores y Fuentes:  🖌️ 🅰️
 
-Quis duis enim veniam aute ad minim eiusmod. Consequat do enim tempor consectetur aliquip culpa laboris veniam sint in qui. Cillum cupidatat sit dolore mollit sit labore ea magna sit.
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+- White : hsl(100%, 100%, 100%)
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700
+
 
 ## 3. - Vista en vivo del sitio web:
 
